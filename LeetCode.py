@@ -1,4 +1,24 @@
-#1. Two Sum
+#0. FizzBuzz | Easy | O(1)
+for i in range(100):
+    out = ""
+
+    if i % 3 == 0:
+        out += "Fizz"
+
+    if i % 5 == 0:
+        out += "Buzz"
+
+    if i % 7 == 0:
+        out += "Bazz"
+
+    # Printing
+    if out == "": # JS: console.log(out || i)
+        print(i)
+    else:
+        print(out)
+
+
+#1. Two Sum | Easy | O(n)
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         hashmap = {}
@@ -16,7 +36,7 @@ class Solution:
             hashmap[nums[i]] = i
 
 
-# Roman to Integer
+#13. Roman to Integer | Easy | O(n)
 class Solution:
     def romanToInt(self, s: str) -> int:
         roman_numerals = {
