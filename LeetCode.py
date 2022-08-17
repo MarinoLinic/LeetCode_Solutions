@@ -1,4 +1,4 @@
-#1. Two Sum | Easy | O(n)
+# 1. Two Sum | Easy | O(n)
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         hashmap = {}
@@ -16,7 +16,7 @@ class Solution:
             hashmap[nums[i]] = i
 
 
-#13. Roman to Integer | Easy | O(n)
+# 13. Roman to Integer | Easy | O(n)
 class Solution:
     def romanToInt(self, s: str) -> int:
         roman_numerals = {

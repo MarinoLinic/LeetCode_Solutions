@@ -1,4 +1,4 @@
-#0. FizzBuzz | Easy | O(1)
+# 0. FizzBuzz | Easy | O(1)
 for i in range(100):
     out = ""
 
@@ -18,7 +18,7 @@ for i in range(100):
         print(out)
 
 
-# 1. Partitioning a number
+# 1. Partitioning a number | Easy | O(n^2)
 def partition(n):
   if n == 1:
     return [[1]]
