@@ -1,4 +1,4 @@
-# Classes
+// Classes
 class Account{
     
   constructor(balance){
